@@ -1,0 +1,54 @@
+body{
+    background: #333;
+}
+h2{
+    color: rgb(228, 24, 24);
+    font-family: monospace;
+    text-align: center;
+}
+.background{
+    table-layout: fixed;
+    border-spacing: 0;
+}
+.background td{
+    
+    padding:  0;
+}
+.lava, .actor{
+    background-image: url("fullbrick\ \(1\).jpg");
+}
+.wall{
+    background: #E6D7D7;
+    border: solid 3px #333;
+    box-sizing: content-box;
+}
+.car{
+    background: #a04040;
+    border: solid 3px #333;
+    box-sizing: content-box;
+}
+.tire{
+    background: rgb(238, 9, 9);
+    border: solid 3px #333;
+    box-sizing: content-box;
+}
+.actor{
+    position: absolute;
+}
+.coin{
+    background: rgb(241, 238, 8);
+    
+}
+.player{
+    background: #335699;
+}
+.lost .player{
+    background: #a04040;
+}
+.won .player {
+    background: green;
+}
+.game{
+    position: relative;
+    overflow: hidden;
+}
