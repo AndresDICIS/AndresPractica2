@@ -1,0 +1,49 @@
+body{
+    background: rgb(7, 83, 23);
+}
+h2{
+    color: rgb(156, 154, 9);
+    font-family: monospace;
+    text-align: center;
+}
+.background{
+    table-layout: fixed;
+    border-spacing: 0;
+}
+.background td{
+    
+    padding:  0;
+}
+.lava, .actor{
+    background-image: url("fullbrick\ \(1\).jpg");
+}
+.wall{
+    background-image: url("LadrilloX_opt.jpg");
+}
+.car{
+    background-image: url("LadrilloXQueb.jpg");
+}
+.tire{
+    background: rgb(238, 9, 9);
+    border: solid 3px #333;
+    box-sizing: content-box;
+}
+.actor{
+    position: absolute;
+}
+.coin{
+    background: rgb(241, 238, 8);
+    
+}
+.player{
+    background-image: url("Personaje_opt.png");}
+.lost .player{
+    background: #a04040;
+}
+.won .player {
+    background: green;
+}
+.game{
+    position: relative;
+    overflow: hidden;
+}
